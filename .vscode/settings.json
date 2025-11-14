@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Modelaci-n-de-sistemas-multiagentes.sln"
+    "dotnet.defaultSolution": "Modelacion-de-sistemas-multiagentes.sln"
 }
