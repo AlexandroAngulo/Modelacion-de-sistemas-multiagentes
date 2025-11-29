@@ -1,0 +1,5927 @@
+{
+    "parameters": {
+        "size": 20,
+        "lanes": 3,
+        "steps": 60,
+        "seed": 123,
+        "prob": 0.8,
+        "side_limit": 6,
+        "bottom_limit": 3
+    },
+    "frames": [
+        {
+            "step": 0,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": []
+        },
+        {
+            "step": 1,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 3,
+                    "x": 2.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 2,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 3,
+                    "x": 3.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 4,
+                    "x": 2.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 3,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 3,
+                    "x": 4.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 4,
+                    "x": 3.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 5,
+                    "x": 2.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 4,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 3,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 4,
+                    "x": 4.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 5,
+                    "x": 3.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 2.0,
+                    "origin": "S",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 5,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 3,
+                    "x": 6.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 4,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 5,
+                    "x": 4.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 3.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 7,
+                    "x": 2.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 6,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 3,
+                    "x": 7.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 4,
+                    "x": 6.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 5,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 4.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 7,
+                    "x": 3.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 7,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 3,
+                    "x": 8.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 4,
+                    "x": 7.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 5,
+                    "x": 6.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 5.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 7,
+                    "x": 4.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 8,
+                    "x": 2.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 8,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 3,
+                    "x": 8.0,
+                    "y": 10.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 4,
+                    "x": 8.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 5,
+                    "x": 7.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 7,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 8,
+                    "x": 3.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 9,
+                    "x": 2.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 9,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 3,
+                    "x": 8.0,
+                    "y": 11.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 4,
+                    "x": 9.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 5,
+                    "x": 8.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 7,
+                    "x": 5.0,
+                    "y": 8.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 8,
+                    "x": 4.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 9,
+                    "x": 3.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 10,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 3,
+                    "x": 8.0,
+                    "y": 12.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 4,
+                    "x": 10.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 5,
+                    "x": 8.0,
+                    "y": 10.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 7,
+                    "x": 5.0,
+                    "y": 7.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 8,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 9,
+                    "x": 4.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 10,
+                    "x": 17.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 11,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 3,
+                    "x": 8.0,
+                    "y": 13.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 4,
+                    "x": 11.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 5,
+                    "x": 8.0,
+                    "y": 11.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 7,
+                    "x": 5.0,
+                    "y": 6.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 8,
+                    "x": 6.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 9,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 10,
+                    "x": 16.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 11,
+                    "x": 2.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 12,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 3,
+                    "x": 8.0,
+                    "y": 14.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 4,
+                    "x": 12.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 5,
+                    "x": 8.0,
+                    "y": 12.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 7,
+                    "x": 5.0,
+                    "y": 5.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 8,
+                    "x": 7.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 9,
+                    "x": 6.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 10,
+                    "x": 15.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 11,
+                    "x": 3.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 12,
+                    "x": 17.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 13,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 3,
+                    "x": 8.0,
+                    "y": 15.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 4,
+                    "x": 13.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 5,
+                    "x": 8.0,
+                    "y": 13.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 7,
+                    "x": 5.0,
+                    "y": 4.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 8,
+                    "x": 8.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 9,
+                    "x": 7.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 10,
+                    "x": 14.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 11,
+                    "x": 4.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 12,
+                    "x": 16.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 13,
+                    "x": 2.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 14,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 3,
+                    "x": 8.0,
+                    "y": 16.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 4,
+                    "x": 14.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 5,
+                    "x": 8.0,
+                    "y": 14.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 7,
+                    "x": 5.0,
+                    "y": 3.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 8,
+                    "x": 9.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 9,
+                    "x": 8.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 10,
+                    "x": 13.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 11,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 12,
+                    "x": 15.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 13,
+                    "x": 3.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 14,
+                    "x": 2.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 15,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 3,
+                    "x": 8.0,
+                    "y": 17.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 4,
+                    "x": 15.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 5,
+                    "x": 8.0,
+                    "y": 15.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 7,
+                    "x": 5.0,
+                    "y": 2.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 8,
+                    "x": 10.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 9,
+                    "x": 9.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 10,
+                    "x": 12.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 11,
+                    "x": 6.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 12,
+                    "x": 14.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 13,
+                    "x": 4.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 14,
+                    "x": 3.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 15,
+                    "x": 2.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 16,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 3,
+                    "x": 8.0,
+                    "y": 18.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 4,
+                    "x": 16.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 5,
+                    "x": 8.0,
+                    "y": 16.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 7,
+                    "x": 5.0,
+                    "y": 1.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 8,
+                    "x": 11.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 9,
+                    "x": 10.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 10,
+                    "x": 11.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 11,
+                    "x": 7.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 12,
+                    "x": 13.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 13,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 14,
+                    "x": 4.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 15,
+                    "x": 3.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 16,
+                    "x": 13.0,
+                    "y": 2.0,
+                    "origin": "S",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 17,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 3,
+                    "x": 8.0,
+                    "y": 19.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 4,
+                    "x": 17.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 5,
+                    "x": 8.0,
+                    "y": 17.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 7,
+                    "x": 5.0,
+                    "y": 0.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 8,
+                    "x": 12.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 9,
+                    "x": 11.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 10,
+                    "x": 10.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 11,
+                    "x": 8.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 12,
+                    "x": 12.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 13,
+                    "x": 5.0,
+                    "y": 8.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 14,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 15,
+                    "x": 4.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 16,
+                    "x": 13.0,
+                    "y": 3.0,
+                    "origin": "S",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 18,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 4,
+                    "x": 18.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 5,
+                    "x": 8.0,
+                    "y": 18.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 8,
+                    "x": 13.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 9,
+                    "x": 12.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 10,
+                    "x": 9.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 11,
+                    "x": 9.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 12,
+                    "x": 11.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 13,
+                    "x": 5.0,
+                    "y": 7.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 14,
+                    "x": 6.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 15,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 16,
+                    "x": 13.0,
+                    "y": 4.0,
+                    "origin": "S",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 19,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 4,
+                    "x": 19.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 5,
+                    "x": 8.0,
+                    "y": 19.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 8,
+                    "x": 14.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 9,
+                    "x": 13.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 10,
+                    "x": 8.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 11,
+                    "x": 10.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 12,
+                    "x": 10.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 13,
+                    "x": 5.0,
+                    "y": 6.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 14,
+                    "x": 7.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 15,
+                    "x": 6.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 16,
+                    "x": 13.0,
+                    "y": 5.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 17,
+                    "x": 17.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 20,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 8,
+                    "x": 15.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 9,
+                    "x": 14.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 10,
+                    "x": 7.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 11,
+                    "x": 11.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 12,
+                    "x": 9.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 13,
+                    "x": 5.0,
+                    "y": 5.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 14,
+                    "x": 8.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 15,
+                    "x": 7.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 17,
+                    "x": 16.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 18,
+                    "x": 2.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 21,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 8,
+                    "x": 16.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 9,
+                    "x": 15.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 10,
+                    "x": 6.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 11,
+                    "x": 12.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 12,
+                    "x": 8.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 13,
+                    "x": 5.0,
+                    "y": 4.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 17,
+                    "x": 15.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 18,
+                    "x": 3.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 19,
+                    "x": 17.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 22,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 8,
+                    "x": 17.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 9,
+                    "x": 16.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 10,
+                    "x": 5.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 11,
+                    "x": 13.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 12,
+                    "x": 7.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 13,
+                    "x": 5.0,
+                    "y": 3.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 14,
+                    "x": 8.0,
+                    "y": 10.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 15,
+                    "x": 8.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 17,
+                    "x": 14.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 18,
+                    "x": 4.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 19,
+                    "x": 16.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 20,
+                    "x": 17.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 23,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 8,
+                    "x": 18.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 9,
+                    "x": 17.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 10,
+                    "x": 4.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 11,
+                    "x": 14.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 12,
+                    "x": 6.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 13,
+                    "x": 5.0,
+                    "y": 2.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 14,
+                    "x": 8.0,
+                    "y": 11.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 15,
+                    "x": 8.0,
+                    "y": 10.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 17,
+                    "x": 13.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 18,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 19,
+                    "x": 15.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 20,
+                    "x": 16.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 21,
+                    "x": 13.0,
+                    "y": 2.0,
+                    "origin": "S",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 24,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 8,
+                    "x": 19.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 9,
+                    "x": 18.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 10,
+                    "x": 3.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 11,
+                    "x": 15.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 12,
+                    "x": 5.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 13,
+                    "x": 5.0,
+                    "y": 1.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 14,
+                    "x": 8.0,
+                    "y": 12.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 15,
+                    "x": 8.0,
+                    "y": 11.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 17,
+                    "x": 12.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 18,
+                    "x": 6.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 19,
+                    "x": 14.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 20,
+                    "x": 15.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 21,
+                    "x": 13.0,
+                    "y": 3.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 22,
+                    "x": 17.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 25,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "Y",
+                    "W": "Y"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 9,
+                    "x": 19.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 10,
+                    "x": 2.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 11,
+                    "x": 16.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 12,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 13,
+                    "x": 5.0,
+                    "y": 0.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 14,
+                    "x": 8.0,
+                    "y": 13.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 15,
+                    "x": 8.0,
+                    "y": 12.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 17,
+                    "x": 11.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 18,
+                    "x": 7.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 19,
+                    "x": 13.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 20,
+                    "x": 14.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 21,
+                    "x": 13.0,
+                    "y": 4.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 22,
+                    "x": 16.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 23,
+                    "x": 2.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 26,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "Y",
+                    "W": "Y"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 10,
+                    "x": 1.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 11,
+                    "x": 17.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 12,
+                    "x": 5.0,
+                    "y": 8.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 14,
+                    "x": 8.0,
+                    "y": 14.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 15,
+                    "x": 8.0,
+                    "y": 13.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 17,
+                    "x": 10.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 18,
+                    "x": 8.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 19,
+                    "x": 12.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 20,
+                    "x": 13.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 22,
+                    "x": 15.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 23,
+                    "x": 3.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 24,
+                    "x": 13.0,
+                    "y": 2.0,
+                    "origin": "S",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 27,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "Y",
+                    "W": "Y"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 10,
+                    "x": 0.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 11,
+                    "x": 18.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 12,
+                    "x": 5.0,
+                    "y": 7.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 14,
+                    "x": 8.0,
+                    "y": 15.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 15,
+                    "x": 8.0,
+                    "y": 14.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 17,
+                    "x": 9.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 18,
+                    "x": 8.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "stopped"
+                },
+                {
+                    "id": 19,
+                    "x": 11.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 20,
+                    "x": 12.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 22,
+                    "x": 14.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 23,
+                    "x": 4.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 24,
+                    "x": 13.0,
+                    "y": 3.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 25,
+                    "x": 2.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 28,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "Y",
+                    "W": "Y"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 11,
+                    "x": 19.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 12,
+                    "x": 5.0,
+                    "y": 6.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 14,
+                    "x": 8.0,
+                    "y": 16.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 15,
+                    "x": 8.0,
+                    "y": 15.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 17,
+                    "x": 8.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 19,
+                    "x": 10.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 20,
+                    "x": 11.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 22,
+                    "x": 13.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 23,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 25,
+                    "x": 3.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 2.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 29,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "Y",
+                    "W": "Y"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 12,
+                    "x": 5.0,
+                    "y": 5.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 14,
+                    "x": 8.0,
+                    "y": 17.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 15,
+                    "x": 8.0,
+                    "y": 16.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 17,
+                    "x": 8.0,
+                    "y": 11.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 18,
+                    "x": 8.0,
+                    "y": 10.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 19,
+                    "x": 9.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 20,
+                    "x": 10.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 22,
+                    "x": 12.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 23,
+                    "x": 5.0,
+                    "y": 8.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 25,
+                    "x": 4.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 3.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 27,
+                    "x": 13.0,
+                    "y": 2.0,
+                    "origin": "S",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 30,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "R",
+                    "W": "R"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 12,
+                    "x": 5.0,
+                    "y": 4.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 14,
+                    "x": 8.0,
+                    "y": 18.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 15,
+                    "x": 8.0,
+                    "y": 17.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 17,
+                    "x": 8.0,
+                    "y": 12.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 18,
+                    "x": 8.0,
+                    "y": 11.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 19,
+                    "x": 8.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 20,
+                    "x": 9.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 22,
+                    "x": 11.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 23,
+                    "x": 5.0,
+                    "y": 7.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 25,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 4.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 31,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "G",
+                    "E": "R",
+                    "W": "R"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 12,
+                    "x": 5.0,
+                    "y": 3.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 14,
+                    "x": 8.0,
+                    "y": 19.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 15,
+                    "x": 8.0,
+                    "y": 18.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 17,
+                    "x": 8.0,
+                    "y": 13.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 18,
+                    "x": 8.0,
+                    "y": 12.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 19,
+                    "x": 7.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 20,
+                    "x": 8.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 22,
+                    "x": 10.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 23,
+                    "x": 5.0,
+                    "y": 6.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 25,
+                    "x": 5.0,
+                    "y": 8.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 29,
+                    "x": 2.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 32,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "G",
+                    "E": "R",
+                    "W": "R"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 7.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 12,
+                    "x": 5.0,
+                    "y": 2.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 15,
+                    "x": 8.0,
+                    "y": 19.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 16,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 17,
+                    "x": 8.0,
+                    "y": 14.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 18,
+                    "x": 8.0,
+                    "y": 13.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 19,
+                    "x": 6.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 20,
+                    "x": 7.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 21,
+                    "x": 13.0,
+                    "y": 5.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 22,
+                    "x": 9.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 23,
+                    "x": 5.0,
+                    "y": 5.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 24,
+                    "x": 13.0,
+                    "y": 4.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 25,
+                    "x": 5.0,
+                    "y": 7.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 6.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 27,
+                    "x": 13.0,
+                    "y": 3.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 28,
+                    "x": 13.0,
+                    "y": 2.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 29,
+                    "x": 3.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 33,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "G",
+                    "E": "R",
+                    "W": "R"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 8.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 12,
+                    "x": 5.0,
+                    "y": 1.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 16,
+                    "x": 13.0,
+                    "y": 7.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 17,
+                    "x": 8.0,
+                    "y": 15.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 18,
+                    "x": 8.0,
+                    "y": 14.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 19,
+                    "x": 5.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 20,
+                    "x": 6.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 21,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 22,
+                    "x": 8.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 23,
+                    "x": 5.0,
+                    "y": 4.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 24,
+                    "x": 13.0,
+                    "y": 5.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 25,
+                    "x": 5.0,
+                    "y": 6.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 7.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 27,
+                    "x": 13.0,
+                    "y": 4.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 28,
+                    "x": 13.0,
+                    "y": 3.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 29,
+                    "x": 4.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 30,
+                    "x": 13.0,
+                    "y": 2.0,
+                    "origin": "S",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 34,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "G",
+                    "E": "R",
+                    "W": "R"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 12,
+                    "x": 5.0,
+                    "y": 0.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 16,
+                    "x": 13.0,
+                    "y": 8.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 17,
+                    "x": 8.0,
+                    "y": 16.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 18,
+                    "x": 8.0,
+                    "y": 15.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 19,
+                    "x": 5.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "stopped"
+                },
+                {
+                    "id": 21,
+                    "x": 13.0,
+                    "y": 7.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 22,
+                    "x": 7.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 23,
+                    "x": 5.0,
+                    "y": 3.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 24,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 25,
+                    "x": 5.0,
+                    "y": 5.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 8.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 27,
+                    "x": 13.0,
+                    "y": 5.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 28,
+                    "x": 13.0,
+                    "y": 4.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 29,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 30,
+                    "x": 13.0,
+                    "y": 3.0,
+                    "origin": "S",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 35,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "G",
+                    "E": "R",
+                    "W": "R"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 13.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 16,
+                    "x": 13.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 17,
+                    "x": 8.0,
+                    "y": 17.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 18,
+                    "x": 8.0,
+                    "y": 16.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 21,
+                    "x": 13.0,
+                    "y": 8.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 23,
+                    "x": 5.0,
+                    "y": 2.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 24,
+                    "x": 13.0,
+                    "y": 7.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 25,
+                    "x": 5.0,
+                    "y": 4.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 9.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 27,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 28,
+                    "x": 13.0,
+                    "y": 5.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 29,
+                    "x": 5.0,
+                    "y": 8.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 30,
+                    "x": 13.0,
+                    "y": 4.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 31,
+                    "x": 17.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 36,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "G",
+                    "E": "R",
+                    "W": "R"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 12.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 16,
+                    "x": 13.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 17,
+                    "x": 8.0,
+                    "y": 18.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 18,
+                    "x": 8.0,
+                    "y": 17.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 19,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 20,
+                    "x": 5.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 21,
+                    "x": 13.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 22,
+                    "x": 6.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 23,
+                    "x": 5.0,
+                    "y": 1.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 24,
+                    "x": 13.0,
+                    "y": 8.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 25,
+                    "x": 5.0,
+                    "y": 3.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 10.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 27,
+                    "x": 13.0,
+                    "y": 7.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 28,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 29,
+                    "x": 5.0,
+                    "y": 7.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 30,
+                    "x": 13.0,
+                    "y": 5.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 31,
+                    "x": 16.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 32,
+                    "x": 2.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 37,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "G",
+                    "E": "R",
+                    "W": "R"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 11.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 16,
+                    "x": 12.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 17,
+                    "x": 8.0,
+                    "y": 19.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 18,
+                    "x": 8.0,
+                    "y": 18.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 19,
+                    "x": 5.0,
+                    "y": 8.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 20,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 21,
+                    "x": 14.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 22,
+                    "x": 5.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 23,
+                    "x": 5.0,
+                    "y": 0.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 24,
+                    "x": 13.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 25,
+                    "x": 5.0,
+                    "y": 2.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 10.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "stopped"
+                },
+                {
+                    "id": 27,
+                    "x": 13.0,
+                    "y": 8.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 28,
+                    "x": 13.0,
+                    "y": 7.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 29,
+                    "x": 5.0,
+                    "y": 6.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 30,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 31,
+                    "x": 16.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "stopped"
+                },
+                {
+                    "id": 32,
+                    "x": 3.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 33,
+                    "x": 13.0,
+                    "y": 2.0,
+                    "origin": "S",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 38,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "G",
+                    "E": "R",
+                    "W": "R"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 10.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 16,
+                    "x": 11.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 18,
+                    "x": 8.0,
+                    "y": 19.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 19,
+                    "x": 5.0,
+                    "y": 7.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 20,
+                    "x": 5.0,
+                    "y": 8.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 21,
+                    "x": 15.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 22,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 24,
+                    "x": 13.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 25,
+                    "x": 5.0,
+                    "y": 1.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 10.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "stopped"
+                },
+                {
+                    "id": 27,
+                    "x": 13.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 28,
+                    "x": 13.0,
+                    "y": 8.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 29,
+                    "x": 5.0,
+                    "y": 5.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 30,
+                    "x": 13.0,
+                    "y": 7.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 31,
+                    "x": 16.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "stopped"
+                },
+                {
+                    "id": 32,
+                    "x": 4.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 33,
+                    "x": 13.0,
+                    "y": 3.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 34,
+                    "x": 17.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 39,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "Y",
+                    "E": "R",
+                    "W": "R"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 9.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 16,
+                    "x": 10.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 19,
+                    "x": 5.0,
+                    "y": 6.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 20,
+                    "x": 5.0,
+                    "y": 7.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 21,
+                    "x": 16.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 22,
+                    "x": 5.0,
+                    "y": 8.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 24,
+                    "x": 12.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 25,
+                    "x": 5.0,
+                    "y": 0.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 10.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "stopped"
+                },
+                {
+                    "id": 27,
+                    "x": 14.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 28,
+                    "x": 13.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 29,
+                    "x": 5.0,
+                    "y": 4.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 30,
+                    "x": 13.0,
+                    "y": 8.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 31,
+                    "x": 16.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "stopped"
+                },
+                {
+                    "id": 32,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 33,
+                    "x": 13.0,
+                    "y": 4.0,
+                    "origin": "S",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 40,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "Y",
+                    "E": "R",
+                    "W": "R"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 8.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 16,
+                    "x": 9.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 19,
+                    "x": 5.0,
+                    "y": 5.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 20,
+                    "x": 5.0,
+                    "y": 6.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 21,
+                    "x": 17.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 22,
+                    "x": 5.0,
+                    "y": 7.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 24,
+                    "x": 11.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 10.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "stopped"
+                },
+                {
+                    "id": 27,
+                    "x": 15.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 28,
+                    "x": 14.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 29,
+                    "x": 5.0,
+                    "y": 3.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 30,
+                    "x": 13.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 31,
+                    "x": 16.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "stopped"
+                },
+                {
+                    "id": 32,
+                    "x": 5.0,
+                    "y": 8.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 33,
+                    "x": 13.0,
+                    "y": 5.0,
+                    "origin": "S",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 41,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "Y",
+                    "E": "R",
+                    "W": "R"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 7.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 16,
+                    "x": 8.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 19,
+                    "x": 5.0,
+                    "y": 4.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 20,
+                    "x": 5.0,
+                    "y": 5.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 21,
+                    "x": 18.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 22,
+                    "x": 5.0,
+                    "y": 6.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 24,
+                    "x": 10.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 10.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "stopped"
+                },
+                {
+                    "id": 27,
+                    "x": 16.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 28,
+                    "x": 15.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 29,
+                    "x": 5.0,
+                    "y": 2.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 30,
+                    "x": 13.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 31,
+                    "x": 16.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "stopped"
+                },
+                {
+                    "id": 32,
+                    "x": 5.0,
+                    "y": 7.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 33,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 42,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "Y",
+                    "E": "R",
+                    "W": "R"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 6.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 16,
+                    "x": 7.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 19,
+                    "x": 5.0,
+                    "y": 3.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 20,
+                    "x": 5.0,
+                    "y": 4.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 21,
+                    "x": 19.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 22,
+                    "x": 5.0,
+                    "y": 5.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 24,
+                    "x": 9.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 10.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "stopped"
+                },
+                {
+                    "id": 27,
+                    "x": 17.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 28,
+                    "x": 16.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 29,
+                    "x": 5.0,
+                    "y": 1.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 30,
+                    "x": 12.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 31,
+                    "x": 16.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "stopped"
+                },
+                {
+                    "id": 32,
+                    "x": 5.0,
+                    "y": 6.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 33,
+                    "x": 13.0,
+                    "y": 7.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 37,
+                    "x": 2.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 43,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "Y",
+                    "E": "R",
+                    "W": "R"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 5.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 16,
+                    "x": 6.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 19,
+                    "x": 5.0,
+                    "y": 2.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 20,
+                    "x": 5.0,
+                    "y": 3.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 22,
+                    "x": 5.0,
+                    "y": 4.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 24,
+                    "x": 8.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 10.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "stopped"
+                },
+                {
+                    "id": 27,
+                    "x": 18.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 28,
+                    "x": 17.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 29,
+                    "x": 5.0,
+                    "y": 0.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 30,
+                    "x": 11.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 31,
+                    "x": 16.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "stopped"
+                },
+                {
+                    "id": 32,
+                    "x": 5.0,
+                    "y": 5.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 33,
+                    "x": 13.0,
+                    "y": 8.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 37,
+                    "x": 3.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 44,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "R",
+                    "W": "R"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 4.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 16,
+                    "x": 5.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 19,
+                    "x": 5.0,
+                    "y": 1.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 20,
+                    "x": 5.0,
+                    "y": 2.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 22,
+                    "x": 5.0,
+                    "y": 3.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 24,
+                    "x": 7.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 10.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "stopped"
+                },
+                {
+                    "id": 27,
+                    "x": 19.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 28,
+                    "x": 18.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 30,
+                    "x": 10.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 31,
+                    "x": 16.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "stopped"
+                },
+                {
+                    "id": 32,
+                    "x": 5.0,
+                    "y": 4.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 33,
+                    "x": 13.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 37,
+                    "x": 4.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 39,
+                    "x": 13.0,
+                    "y": 2.0,
+                    "origin": "S",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 45,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 3.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 16,
+                    "x": 5.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 19,
+                    "x": 5.0,
+                    "y": 0.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 20,
+                    "x": 5.0,
+                    "y": 1.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 22,
+                    "x": 5.0,
+                    "y": 2.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 24,
+                    "x": 6.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 10.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "stopped"
+                },
+                {
+                    "id": 28,
+                    "x": 19.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 30,
+                    "x": 9.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 31,
+                    "x": 16.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "stopped"
+                },
+                {
+                    "id": 32,
+                    "x": 5.0,
+                    "y": 3.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 33,
+                    "x": 13.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 37,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 39,
+                    "x": 13.0,
+                    "y": 3.0,
+                    "origin": "S",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 46,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 2.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 20,
+                    "x": 5.0,
+                    "y": 0.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 22,
+                    "x": 5.0,
+                    "y": 1.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 11.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 30,
+                    "x": 8.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 31,
+                    "x": 15.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 32,
+                    "x": 5.0,
+                    "y": 2.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 33,
+                    "x": 12.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 34,
+                    "x": 16.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 35,
+                    "x": 17.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 37,
+                    "x": 5.0,
+                    "y": 8.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 39,
+                    "x": 13.0,
+                    "y": 4.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 40,
+                    "x": 13.0,
+                    "y": 2.0,
+                    "origin": "S",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 47,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 1.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 16,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 22,
+                    "x": 5.0,
+                    "y": 0.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 24,
+                    "x": 5.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 12.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 30,
+                    "x": 7.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 31,
+                    "x": 14.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 32,
+                    "x": 5.0,
+                    "y": 1.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 33,
+                    "x": 11.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 34,
+                    "x": 15.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 35,
+                    "x": 16.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 36,
+                    "x": 17.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 37,
+                    "x": 5.0,
+                    "y": 7.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 39,
+                    "x": 13.0,
+                    "y": 5.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 40,
+                    "x": 13.0,
+                    "y": 3.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 41,
+                    "x": 13.0,
+                    "y": 2.0,
+                    "origin": "S",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 48,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 6,
+                    "x": 0.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 16,
+                    "x": 5.0,
+                    "y": 8.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 24,
+                    "x": 4.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 13.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 30,
+                    "x": 6.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 31,
+                    "x": 13.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 32,
+                    "x": 5.0,
+                    "y": 0.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 33,
+                    "x": 10.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 34,
+                    "x": 14.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 35,
+                    "x": 15.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 36,
+                    "x": 16.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 37,
+                    "x": 5.0,
+                    "y": 6.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 38,
+                    "x": 17.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 39,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 40,
+                    "x": 13.0,
+                    "y": 4.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 41,
+                    "x": 13.0,
+                    "y": 3.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 42,
+                    "x": 2.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 49,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 16,
+                    "x": 5.0,
+                    "y": 7.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 24,
+                    "x": 3.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 14.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 30,
+                    "x": 5.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 31,
+                    "x": 12.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 33,
+                    "x": 9.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 34,
+                    "x": 13.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 35,
+                    "x": 14.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 36,
+                    "x": 15.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 37,
+                    "x": 5.0,
+                    "y": 5.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 38,
+                    "x": 16.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 39,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 40,
+                    "x": 13.0,
+                    "y": 5.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 41,
+                    "x": 13.0,
+                    "y": 4.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 42,
+                    "x": 3.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 43,
+                    "x": 2.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 50,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 16,
+                    "x": 5.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 24,
+                    "x": 2.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 15.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 30,
+                    "x": 4.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 31,
+                    "x": 11.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 33,
+                    "x": 8.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 34,
+                    "x": 12.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 35,
+                    "x": 13.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 36,
+                    "x": 14.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 37,
+                    "x": 5.0,
+                    "y": 4.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 38,
+                    "x": 15.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 39,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 42,
+                    "x": 4.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 43,
+                    "x": 3.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 51,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 16,
+                    "x": 5.0,
+                    "y": 5.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 24,
+                    "x": 1.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 16.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 30,
+                    "x": 3.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 31,
+                    "x": 10.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 33,
+                    "x": 7.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 34,
+                    "x": 11.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 35,
+                    "x": 12.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 36,
+                    "x": 13.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 37,
+                    "x": 5.0,
+                    "y": 3.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 38,
+                    "x": 14.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 39,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 42,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 43,
+                    "x": 4.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 44,
+                    "x": 13.0,
+                    "y": 2.0,
+                    "origin": "S",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 52,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 16,
+                    "x": 5.0,
+                    "y": 4.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 24,
+                    "x": 0.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 17.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 30,
+                    "x": 2.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 31,
+                    "x": 9.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 33,
+                    "x": 6.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 34,
+                    "x": 10.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 35,
+                    "x": 11.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 36,
+                    "x": 12.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 37,
+                    "x": 5.0,
+                    "y": 2.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 38,
+                    "x": 13.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 39,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 42,
+                    "x": 5.0,
+                    "y": 8.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 43,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 44,
+                    "x": 13.0,
+                    "y": 3.0,
+                    "origin": "S",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 53,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 16,
+                    "x": 5.0,
+                    "y": 3.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 18.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 30,
+                    "x": 1.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 31,
+                    "x": 8.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 33,
+                    "x": 5.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 34,
+                    "x": 9.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 35,
+                    "x": 10.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 36,
+                    "x": 11.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 37,
+                    "x": 5.0,
+                    "y": 1.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 38,
+                    "x": 12.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 39,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 42,
+                    "x": 5.0,
+                    "y": 7.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 43,
+                    "x": 6.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 45,
+                    "x": 13.0,
+                    "y": 2.0,
+                    "origin": "S",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 54,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "G",
+                    "W": "G"
+                }
+            },
+            "cars": [
+                {
+                    "id": 16,
+                    "x": 5.0,
+                    "y": 2.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 26,
+                    "x": 19.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 30,
+                    "x": 0.0,
+                    "y": 10.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 31,
+                    "x": 7.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 33,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 34,
+                    "x": 8.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 35,
+                    "x": 9.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 36,
+                    "x": 10.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 37,
+                    "x": 5.0,
+                    "y": 0.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 38,
+                    "x": 11.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 39,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 42,
+                    "x": 5.0,
+                    "y": 6.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 43,
+                    "x": 7.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 55,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "Y",
+                    "W": "Y"
+                }
+            },
+            "cars": [
+                {
+                    "id": 16,
+                    "x": 5.0,
+                    "y": 1.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 31,
+                    "x": 6.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 33,
+                    "x": 5.0,
+                    "y": 8.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 34,
+                    "x": 8.0,
+                    "y": 11.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 35,
+                    "x": 8.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 36,
+                    "x": 9.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 38,
+                    "x": 10.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 39,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 42,
+                    "x": 5.0,
+                    "y": 5.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 43,
+                    "x": 8.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 46,
+                    "x": 2.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 56,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "Y",
+                    "W": "Y"
+                }
+            },
+            "cars": [
+                {
+                    "id": 16,
+                    "x": 5.0,
+                    "y": 0.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 31,
+                    "x": 5.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 33,
+                    "x": 5.0,
+                    "y": 7.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 34,
+                    "x": 8.0,
+                    "y": 12.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 35,
+                    "x": 8.0,
+                    "y": 11.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 36,
+                    "x": 8.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 38,
+                    "x": 9.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 39,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 42,
+                    "x": 5.0,
+                    "y": 4.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 43,
+                    "x": 9.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 46,
+                    "x": 3.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 47,
+                    "x": 2.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 57,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "Y",
+                    "W": "Y"
+                }
+            },
+            "cars": [
+                {
+                    "id": 31,
+                    "x": 4.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 33,
+                    "x": 5.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 34,
+                    "x": 8.0,
+                    "y": 13.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 35,
+                    "x": 8.0,
+                    "y": 12.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 36,
+                    "x": 7.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 38,
+                    "x": 8.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 39,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 42,
+                    "x": 5.0,
+                    "y": 3.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 43,
+                    "x": 10.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 46,
+                    "x": 4.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 47,
+                    "x": 3.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 58,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "Y",
+                    "W": "Y"
+                }
+            },
+            "cars": [
+                {
+                    "id": 31,
+                    "x": 3.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 33,
+                    "x": 5.0,
+                    "y": 5.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 34,
+                    "x": 8.0,
+                    "y": 14.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 35,
+                    "x": 8.0,
+                    "y": 13.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 36,
+                    "x": 6.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 38,
+                    "x": 7.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 39,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 42,
+                    "x": 5.0,
+                    "y": 2.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 43,
+                    "x": 11.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 46,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 47,
+                    "x": 4.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        },
+        {
+            "step": 59,
+            "lights": {
+                "id": 2,
+                "state": {
+                    "N": "R",
+                    "S": "R",
+                    "E": "Y",
+                    "W": "Y"
+                }
+            },
+            "cars": [
+                {
+                    "id": 31,
+                    "x": 2.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 33,
+                    "x": 5.0,
+                    "y": 4.0,
+                    "origin": "S",
+                    "state": "moving"
+                },
+                {
+                    "id": 34,
+                    "x": 8.0,
+                    "y": 15.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 35,
+                    "x": 8.0,
+                    "y": 14.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 36,
+                    "x": 5.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 38,
+                    "x": 6.0,
+                    "y": 10.0,
+                    "origin": "E",
+                    "state": "moving"
+                },
+                {
+                    "id": 39,
+                    "x": 13.0,
+                    "y": 6.0,
+                    "origin": "S",
+                    "state": "stopped"
+                },
+                {
+                    "id": 42,
+                    "x": 5.0,
+                    "y": 1.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 43,
+                    "x": 12.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 46,
+                    "x": 6.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                },
+                {
+                    "id": 47,
+                    "x": 5.0,
+                    "y": 9.0,
+                    "origin": "W",
+                    "state": "moving"
+                }
+            ]
+        }
+    ]
+}

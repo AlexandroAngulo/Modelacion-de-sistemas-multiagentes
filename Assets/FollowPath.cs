@@ -8,7 +8,7 @@ public class FollowPath : MonoBehaviour
 
     //Input Parameters
     [SerializeField]
-    public Transform path;
+    public Vector3 path;
     [SerializeField]
     float linear_vel;
     
@@ -18,13 +18,13 @@ public class FollowPath : MonoBehaviour
     
     void Start(){
         
-        path.position = new Vector3(path.position.x, transform.position.y, path.position.z);
+        path = new Vector3(path.x, transform.position.y, path.z);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if((transform.position- path.position).magnitude > 1)
+        if((transform.position- path).magnitude > 1)
         {
             moveTowardsObjective();
         }
@@ -32,7 +32,7 @@ public class FollowPath : MonoBehaviour
 
     }
     void moveTowardsObjective(){
-        Quaternion relative_rotation = Quaternion.LookRotation(path.position - transform.position);
+        Quaternion relative_rotation = Quaternion.LookRotation(path - transform.position);
         transform.rotation = Quaternion.RotateTowards(transform.rotation, relative_rotation, rotational_vel* Time.deltaTime);
         transform.position += transform.forward * Time.deltaTime * linear_vel ;
     }
