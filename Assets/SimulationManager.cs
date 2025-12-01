@@ -48,7 +48,7 @@ public class SimulationManager : MonoBehaviour
             }
             else
             {
-                createCar(id,frame["cars"][i]["x"], frame["cars"][i]["y"] );
+                createCar(id,frame["cars"][i]["x"], frame["cars"][i]["y"] ,  frame["cars"][i]["speedX"], frame["cars"][i]["speedY"] );
             }
         }
         var newDict = new Dictionary<int, FollowPath>();
@@ -68,9 +68,11 @@ public class SimulationManager : MonoBehaviour
         coroutine_ofchange = null;
     }
 
-    void createCar(int index, int x, int y)
+    void createCar(int index, int x, int y, int dx, int dy)
     {
-        var new_car = Instantiate( randomCar() , getPosByIndex(x,y), Quaternion.identity  );
+        Vector3 nextPos = getPosByIndex(x+dx, dy+y);
+        Vector3 pos = getPosByIndex(x,y);
+        var new_car = Instantiate( randomCar() , pos ,Quaternion.LookRotation(nextPos-pos) );
         car_agents[index] = new_car.GetComponent<FollowPath>();
         new_car.GetComponent<FollowPath>().path = getPosByIndex(x,y);
     }
