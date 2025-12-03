@@ -9,6 +9,6 @@ public class show_position : MonoBehaviour
         // Convert the local coordinate values into world
         // coordinates for the matrix transformation.
         Gizmos.matrix = transform.localToWorldMatrix;
-        Gizmos.DrawSphere(Vector3.zero, 3f);
+        Gizmos.DrawSphere(Vector3.zero, 2f);
     }
 }

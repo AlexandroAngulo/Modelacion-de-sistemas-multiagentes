@@ -10,7 +10,7 @@ public class FollowPath : MonoBehaviour
     [SerializeField]
     public Vector3 path;
     [SerializeField]
-    float linear_vel;
+    public float linear_vel;
     
     [SerializeField]
     float rotational_vel;

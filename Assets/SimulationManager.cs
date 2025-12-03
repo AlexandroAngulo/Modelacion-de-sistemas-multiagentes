@@ -9,20 +9,27 @@ public class SimulationManager : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     Dictionary<int, FollowPath> car_agents = new Dictionary<int, FollowPath>();
+    [SerializeField]
+    string jsonFile = "";
 
     [SerializeField]
     List<GameObject> cars_prefabs = new List<GameObject>();
+
     string json;
     int time_index = 0;
     
      //Control variables
     private Coroutine coroutine_ofchange = null;
     JSONNode simulation;
+    [SerializeField]
+    float actu_time;
+    [SerializeField]
+    float car_vel;
 
     // Update is called once per frame
     void Start()
     {
-        json = File.ReadAllText(Application.dataPath + "/json/data.json");
+        json = File.ReadAllText(Application.dataPath + "/json/"+jsonFile+".json");
         simulation = JSON.Parse(json);
 
     }
@@ -64,7 +71,7 @@ public class SimulationManager : MonoBehaviour
             }
         }
         car_agents = newDict;
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(actu_time);
         coroutine_ofchange = null;
     }
 
@@ -75,6 +82,8 @@ public class SimulationManager : MonoBehaviour
         var new_car = Instantiate( randomCar() , pos ,Quaternion.LookRotation(nextPos-pos) );
         car_agents[index] = new_car.GetComponent<FollowPath>();
         new_car.GetComponent<FollowPath>().path = getPosByIndex(x,y);
+        new_car.GetComponent<FollowPath>().linear_vel = car_vel;
+        
     }
 
     GameObject randomCar()
