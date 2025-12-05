@@ -14,6 +14,9 @@ public class SimulationManager : MonoBehaviour
 
     [SerializeField]
     List<GameObject> cars_prefabs = new List<GameObject>();
+    [SerializeField]
+    List<Renderer> semaforos = new List<Renderer>();
+
 
     string json;
     int time_index = 0;
@@ -71,8 +74,33 @@ public class SimulationManager : MonoBehaviour
             }
         }
         car_agents = newDict;
+
+        for(int i = 0; i < semaforos.Count; i++)
+        {
+            semaforos[i].material.SetColor("_BaseColor", getColorString(frame["lights"]["state"][i]) );
+        }
+
         yield return new WaitForSeconds(actu_time);
         coroutine_ofchange = null;
+    }
+
+
+
+    Color getColorString(string input)
+    {   
+        if(input == "R")
+        {
+            return Color.red;
+        }else if( input == "G")
+        {
+            return Color.green;
+        }else if(input == "Y")
+        {
+            return Color.yellow;
+        }else
+        {
+            return Color.grey;
+        }
     }
 
     void createCar(int index, int x, int y, int dx, int dy)
